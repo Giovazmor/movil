@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo{
+    color: #622a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*HEADER*/
+.contenedor-sobre-nosotros{
+    display: block;
+    justify-content: space-evenly;
+}
+
+.contenedor-sobre-nosotros .boton{
+    width: 55px;
+    height: 28px;
+    background: #ffdada;
+    border: 1;
+    padding: 5px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 2px;
+    font-size: 11px;
+    font-style: italic;
+    text-align: center;
+    display: inline-table;
+}
+
+/*FOOTER*/
+
+footer{
+    background: #414141;
+    padding: 60px 0 10px 0;
+    margin: auto;
+    overflow: hidden;
+    position: static;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contenedor-foo{
+    text-align: center;
+}
+
+.contenedor-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.contenedor-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}

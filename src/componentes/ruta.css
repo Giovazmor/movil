@@ -1,0 +1,18 @@
+nav > ul{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    background: #b95555;
+    
+    
+}
+
+nav > a{
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
